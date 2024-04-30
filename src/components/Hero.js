@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Hero() {
     const config  = {
-        subtitle: 'Im a Full-stack developer and Designer',
+        subtitle: 'Im a Full-stack developer and web Designer',
         social: {
             twitter: 'https://twitter.com/Barath292907',
             github: 'https://github.com/Barath0729',
