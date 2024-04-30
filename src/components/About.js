@@ -2,7 +2,7 @@ import AboutImg from '../assets/about.png';
 
 export default function About () {
     const config  = {
-        line1: 'Hi, My name is Barath. I am a Devops Engineer. I built PipeLines in Maven and Git Actions .',
+        line1: 'Hi, My name is Barath. I am a Devops Engineer and frontend developer. I built PipeLines in Maven and Git Actions .',
         line2: 'I am proficient in AWS Features Like EC-2, Lambda, s-3 Buckets,IAM and Many More .',
         line3: 'In FrontEnd I know React js and In BackEnd, I know node js, Express.js, and MongoDB .'
     }
