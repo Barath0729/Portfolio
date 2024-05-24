@@ -1,34 +1,30 @@
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+portfolio-repo-s3
 
 
-### `npm run eject`
+Overview
+This project is focused on deploying a personal portfolio website using GitHub Actions for automatic deployment to an AWS S3 bucket. Additionally, a Docker workflow is implemented to containerize the portfolio application and push it to Docker Hub for easy distribution and deployment.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Features
+Portfolio Website: A personal portfolio website showcasing your projects, skills, and achievements.
+GitHub Actions Deployment: Automatic deployment of the portfolio website to an AWS S3 bucket on every push to the main branch.
+Docker Workflow: Containerization of the portfolio application using Docker, facilitating easy distribution and deployment across different environments.
+Technologies Used
+GitHub Actions: Utilized for continuous integration and deployment (CI/CD) of the portfolio website.
+AWS S3: Used as the hosting service for the portfolio website, enabling scalable and reliable deployment.
+Docker: Employed for containerizing the portfolio application, ensuring consistency and portability across different environments.
+Docker Hub: Used as the container image registry for storing and distributing the Dockerized portfolio application.
+Usage
+Setting Up GitHub Actions:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Configure GitHub Actions workflow (.github/workflows/deploy.yml) to trigger deployment to AWS S3 bucket on each push to the main branch.
+Ensure appropriate AWS credentials are set up as GitHub Secrets for secure deployment.
+Docker Workflow:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Implement Dockerfile for defining the environment and dependencies required for running the portfolio application.
+Configure Docker workflow to build the Docker image, tag it appropriately, and push it to Docker Hub for distribution.
+Deploying Portfolio:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Push changes to the main branch to trigger GitHub Actions workflow for automatic deployment to the AWS S3 bucket.
+Pull the Docker image from Docker Hub and deploy it to your desired environment using Docker.
+Contributing
+Contributions are welcome! If you have any suggestions, improvements, or feature requests, feel free to open an issue or submit a pull request.
