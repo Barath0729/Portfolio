@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+portfolio-repo-s3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Overview:-
 
-In the project directory, you can run:
+This project is focused on deploying a personal portfolio website using GitHub Actions for automatic deployment to an AWS S3 bucket. Additionally, a Docker workflow is implemented to containerize the portfolio application and push it to Docker Hub for easy distribution and deployment.
 
-### `npm start`
+Features:-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Portfolio Website: A personal portfolio website showcasing your projects, skills, and achievements.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+GitHub Actions Deployment: Automatic deployment of the portfolio website to an AWS S3 bucket on every push to the main branch.
 
-### `npm test`
+Docker Workflow: Containerization of the portfolio application using Docker, facilitating easy distribution and deployment across different environments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Technologies Used:-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+GitHub Actions: Utilized for continuous integration and deployment (CI/CD) of the portfolio website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+AWS S3: Used as the hosting service for the portfolio website, enabling scalable and reliable deployment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Docker: Employed for containerizing the portfolio application, ensuring consistency and portability across different environments.
+Docker Hub: Used as the container image registry for storing and distributing the Dockerized portfolio application.
 
-### `npm run eject`
+Usage:-
+Setting Up GitHub Actions:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Configure GitHub Actions workflow (.github/workflows/deploy.yml) to trigger deployment to AWS S3 bucket on each push to the main branch.
+Ensure appropriate AWS credentials are set up as GitHub Secrets for secure deployment.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Docker Workflow:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Implement Dockerfile for defining the environment and dependencies required for running the portfolio application.
+Configure Docker workflow to build the Docker image, tag it appropriately, and push it to Docker Hub for distribution.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Deploying Portfolio:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Push changes to the main branch to trigger GitHub Actions workflow for automatic deployment to the AWS S3 bucket.
+Pull the Docker image from Docker Hub and deploy it to your desired environment using Docker.
