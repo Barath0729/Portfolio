@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/barath0729.github.io/Portfolio/static/css/main.2bc64652.css",
-    "main.js": "/barath0729.github.io/Portfolio/static/js/main.49c07b5d.js",
-    "static/media/about.png": "/barath0729.github.io/Portfolio/static/media/about.619ff0b319a55d0c05b1.png",
-    "static/media/hero.png": "/barath0729.github.io/Portfolio/static/media/hero.f14f30c6d01a97df04f6.png",
-    "static/media/resume.jpg": "/barath0729.github.io/Portfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
-    "static/media/website-blog.jpg": "/barath0729.github.io/Portfolio/static/media/website-blog.2b8a9ccaf4b7183cf39a.jpg",
-    "static/media/food-ecommerce.jpeg": "/barath0729.github.io/Portfolio/static/media/food-ecommerce.21c00ff62f51b098871d.jpeg",
-    "index.html": "/barath0729.github.io/Portfolio/index.html",
-    "main.2bc64652.css.map": "/barath0729.github.io/Portfolio/static/css/main.2bc64652.css.map",
-    "main.49c07b5d.js.map": "/barath0729.github.io/Portfolio/static/js/main.49c07b5d.js.map"
+    "main.css": "/Portfolio/static/css/main.2bc64652.css",
+    "main.js": "/Portfolio/static/js/main.c565dcd0.js",
+    "static/media/about.png": "/Portfolio/static/media/about.619ff0b319a55d0c05b1.png",
+    "static/media/hero.png": "/Portfolio/static/media/hero.f14f30c6d01a97df04f6.png",
+    "static/media/resume.jpg": "/Portfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/website-blog.jpg": "/Portfolio/static/media/website-blog.2b8a9ccaf4b7183cf39a.jpg",
+    "static/media/food-ecommerce.jpeg": "/Portfolio/static/media/food-ecommerce.21c00ff62f51b098871d.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.2bc64652.css.map": "/Portfolio/static/css/main.2bc64652.css.map",
+    "main.c565dcd0.js.map": "/Portfolio/static/js/main.c565dcd0.js.map"
   },
   "entrypoints": [
     "static/css/main.2bc64652.css",
-    "static/js/main.49c07b5d.js"
+    "static/js/main.c565dcd0.js"
   ]
 }
